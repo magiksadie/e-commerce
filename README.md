@@ -8,14 +8,15 @@ This program will allow you to use JS and insomnia to add data to your db for yo
 * [Video](#walk-through-video)
 * [License](#license)
 * [Contributing](#contributing)
-* [Tests](#tests)
 * [Questions](#questions)
 
 ## Installation and Usage
 
-Pull code and run `npm start`, then open the localhost ./api/(route)
+Pull code and add your database name, SQL user & pass into the .env. Install `npm i` and run `npm run seed`. After schema and seed commands, run `npm start` and open localhost into your insomnia or preffered API testing application. Enter data! :)
 
 ## Walk Through Video
+
+https://drive.google.com/file/d/16IqWD7ftQXcDwJ6VI4pRbXJ0wxSs6TLi/view
 
 ## License
 
@@ -32,9 +33,6 @@ https://opensource.org/licenses/MIT
       
       THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-## Tests
-
-`npm run test` will run jest
 
 ## Questions
 
